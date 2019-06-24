@@ -13,19 +13,19 @@ class Bot(commands.Bot):
         self.remove_command("help")
         self.add_command(self.help)
         self.add_command(self.ping)
-        
+
     @commands.command()
     async def ping(self, ctx):
         await ctx.send(":ping_pong: Pong!")
 
     @commands.command()
     async def help(self, ctx):
-        message = """Discord Hack Week 
+        message = """Hi! My name is Frizzler! I am a bot created for Discord's Hack Week! 
         
-        Prefix: **<insert prefix>**
+        Prefix: **f!**
 
         Commands:
-        <list commands>"""
+        `ping`"""
 
         embed = discord.Embed(description=message)
         embed.set_author(icon_url=ctx.message.author.avatar_url, name=ctx.message.author.display_name + " has requested help!")
