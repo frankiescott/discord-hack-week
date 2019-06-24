@@ -20,13 +20,14 @@ class Bot(commands.Bot):
 
     @commands.command()
     async def help(self, ctx):
-        message = """Hi! My name is Frizzler! I am a bot created for Discord's Hack Week! 
+        message = """Hello! My name is Frizzler! I am a bot created for Discord's Hack Week! 
         
         Prefix: **f!**
 
         Commands:
-        `ping`"""
-
+        `ping`
+        Pings the bot"""
+        
         embed = discord.Embed(description=message)
         embed.set_author(icon_url=ctx.message.author.avatar_url, name=ctx.message.author.display_name + " has requested help!")
         embed.colour = ctx.message.author.colour if hasattr(ctx.message.author, "colour") else discord.Colour.default()
