@@ -27,7 +27,7 @@ class Bot(commands.Bot):
         Commands:
         `ping`
         Pings the bot"""
-        
+
         embed = discord.Embed(description=message)
         embed.set_author(icon_url=ctx.message.author.avatar_url, name=ctx.message.author.display_name + " has requested help!")
         embed.colour = ctx.message.author.colour if hasattr(ctx.message.author, "colour") else discord.Colour.default()
