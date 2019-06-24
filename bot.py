@@ -9,7 +9,7 @@ from keys import API_KEY
 
 class Bot(commands.Bot):
     def __init__(self):
-        super().__init__(command_prefix="e!")
+        super().__init__(command_prefix="f!")
         self.remove_command("help")
         self.add_command(self.help)
 
