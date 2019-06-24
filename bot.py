@@ -14,6 +14,10 @@ class Bot(commands.Bot):
         self.add_command(self.help)
 
     @commands.command()
+    async def ping(self, ctx):
+        await ctx.send(":ping_pong: Pong!")
+        
+    @commands.command()
     async def help(self, ctx):
         message = """Discord Hack Week 
         
