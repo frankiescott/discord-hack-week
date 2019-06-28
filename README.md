@@ -9,7 +9,7 @@ To make the pianotime command work, you'll need to install [FFmpeg](https://ffmp
 ## Usage
 f! prefix
 
-```python
+```
 f!help
 ```
 Returns all the existing commands.
