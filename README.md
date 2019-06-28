@@ -9,26 +9,7 @@ To make the pianotime command work, you'll need to install [FFmpeg](https://ffmp
 ## Usage
 f! prefix
 
-```
-f!help
-```
-Returns all the existing commands.
-```
-f!ping
-```
-Returns pong
-```
-f!party
-```
-Puts a channel in party mode!
-```
-f!playmafia
-```
-Starts a game of mafia.
-```
-f!pianotime
-```
-Must be in a Vocal Channel, play on a piano through the bot.
+
 |    Command    |  Description  |
 | ------------- | ------------- |
 | help | Returns all the existing commands  |
@@ -39,5 +20,6 @@ Must be in a Vocal Channel, play on a piano through the bot.
 | rps | The world famous Rock Paper Scissors game|
 | specialday | Plan events to get notified on the right date|
 | playwumpus | Where's Waldo with a 100% more Wumpus |
+
 ## Contributors
 Made By: Frankup, Beatsu, Konnie and Jaypey
